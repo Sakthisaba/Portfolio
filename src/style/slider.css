@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Poppins:wght@800&family=Shadows+Into+Light&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.card h3{text-align: left;}
+.card p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+
+    text-align: left;
+   
+}
+
+.hover:hover
+{
+    background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+h3{
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 800; 
+}
+a{
+    text-align: left !important;
+    text-decoration: none;
+}
+a {
+    text-align: left;
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.row
+{
+   
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 33% 33% 33%;
+
+justify-content: space-between;
+}
+.column{
+    padding: 10px;
+}
+span{
+    font-family: 'Poppins', sans-serif;
+        color: aliceblue;
+        font-size: 80px;
+        font-weight: 800;
+}
+
+.card{ border: 0.1px solid #ffffff44;
+    border-radius: 20px;}
+
+  .color
+  {
+    background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+  }
+  .stack
+  { 
+    color: rgb(138, 138, 138);
+  }
+  /* Remove extra left and right margins, due to padding */
+
+  @media screen and (min-width:901px) {
+    .Projects
+    {
+        margin-top: 120px;
+    }
+    .card
+    {
+        width:250px;
+        height:300px;
+    }
+   *{
+    overflow-x: hidden;
+   }
+    
+  }
+
+  @media screen and (max-width: 900px) 
+  {
+    .row
+    {grid-template-columns: 100%;
+  
+   height: 1000px;
+   grid-gap: -200px;
+
+   
+   
+        }
+
+        
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column
+    {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    
+
+        span {
+            font-size: 40px;
+        };
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 0.1px solid #ffffff44;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+   
+  }
